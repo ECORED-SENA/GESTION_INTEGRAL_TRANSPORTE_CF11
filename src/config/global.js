@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Indicadores de recursos',
+    descripcionCurso:
+      'En este componente, el estudiante logrará conocer los diferentes procesos que permiten que el transporte de personas o artículos pueda realizarse desde un punto de origen hasta un destino, garantizando entrega y recibo correctos, lo que favorece la correcta prestación del servicio y la satisfacción del cliente.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,31 +37,140 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión del transporte (despacho y recibo)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Modo aéreo',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Modo marítimo',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Modo férreo',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Modo terrestre',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Proceso de recepción ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Características del producto a transportar',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Preparación de la mercancía para el transporte',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Validación de recursos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Recursos humanos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Equipos ',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Recursos económicos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Informes de gestión',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Indicadores de productividad ',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Rendimiento',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Criterios de calidad para el servicio',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Cumplimiento (recorridos, horarios, frecuencias)',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Trazabilidad y seguridad (GPS, central de monitoreo) ',
+            hash: 't_6_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.3',
+            titulo:
+              'Recibo de la carga por parte del cliente - entrega por parte del transportador',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Matriz de producto o servicio no conforme (PQRS)',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -64,7 +178,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -99,34 +212,99 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Castro, P. (2020). Proceso logístico de recibo de mercancías empresa grupo Algrano. Universidad Piloto de Colombia.',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Decreto 1609 de 2002. [Ministerio de Transporte]. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Julio 31 de 2002. ',
+      link:
+        'https://www.minambiente.gov.co/images/BosquesBiodiversidadyServiciosEcosistemicos/pdf/Normativa/Decretos/dec_1609_310702.pdf',
+    },
+    {
+      referencia:
+        'Estupiñán, J. y Reyes, M. (2019). Modo férreo, una alternativa de movilización de carga y pasajeros para el mejoramiento de la infraestructura y movilidad de las vías vehiculares. Universidad Francisco José de Caldas.',
+    },
+    {
+      referencia:
+        'Fondo de Prevención Vial. (2008). Transporte de Mercancías peligrosas en vehículos automotores de carga. ',
+    },
+
+    {
+      referencia:
+        'Ley 222 de 1995. Por la cual se modifica el Libro II del Código de Comercio, se expide un nuevo régimen de procesos concursales y se dictan otras disposiciones. Diciembre 20 de 1995. ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0222_1995.html ',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (2011). Recomendaciones relativas al transporte de mercancías peligrosas. Reglamentación modelo.',
+      link:
+        'https://unece.org/fileadmin/DAM/trans/danger/publi/unrec/rev17/Spanish/Rev17_Volume1.pdf ',
+    },
+    {
+      referencia:
+        'Organización de Aviación Civil Internacional [OACI] y Organización Mundial de Aduanas [OMA]. (s. f.). El transporte internacional de la carga aérea. Cadena de suministro segura para la carga aérea y el correo y directrices en materia de facilitación. ',
+      link:
+        'https://www.icao.int/Security/aircargo/Moving%20Air%20Cargo%20Globally/ICAO_WCO_Moving_Air_Cargo_es.pdf ',
+    },
+    {
+      referencia:
+        'Ruibal, A. (1994). Gestión Logística de la Distribución Física Internacional. Norma. ',
+    },
+    {
+      referencia:
+        'Salazar, D. (2005). Indicadores para la logística de transporte y distribución base para un estudio de Benchmarking. Universidad de los Andes. ',
+      link: 'http://hdl.handle.net/1992/10638 ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Arrume',
+      significado: 'montón, acumulación de cosas o abundancia de ellas. ',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Arrume negro',
+      significado:
+        'es el almacenamiento de productos desde el piso. Se utiliza cuando se dificulta el almacenamiento en estanterías y el producto lo permite por sus características.',
+    },
+    {
+      termino: 'Buque',
+      significado:
+        'es un navío de gran tamaño para navegación marítima (a diferencia del barco, que es para navegación costera y fluvial). Cumple una función específica (buque de guerra, buque hospital, buque mercante, buque de transporte, etc.).',
+    },
+    {
+      termino: 'Explosivo',
+      significado:
+        'es aquella sustancia que, por alguna causa externa (roce, calor, percusión, etc.), se transforma en gases, liberando calor, presión o radiación, en un tiempo muy breve.',
+    },
+    {
+      termino: 'Inflamable',
+      significado:
+        'corresponde con aquello que puede encenderse de manera sencilla y que no tarda en desprender llamas.',
+    },
+    {
+      termino: 'Diseña',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: '<i>Pallet</i>',
+      significado:
+        'es un dispositivo sobre cuya tarima puede agruparse determinada cantidad de mercancías, con el fin de construir una unidad de transferencia, transporte o arrume, con la ayuda de elementos mecanizados.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema:
+        'El transporte internacional de la carga aérea. Cadena de suministro segura para la carga aérea y el correo y directrices en materia de facilitación.',
+      referencia:
+        'Organización de Aviación Civil Internacional [OACI] y Organización Mundial de Aduanas [OMA]. (s. f.).',
+      tipo: 'Documento pdf',
+      link:
+        'https://www.icao.int/Security/aircargo/Moving%20Air%20Cargo%20Globally/ICAO_WCO_Moving_Air_Cargo_es.pdf ',
     },
   ],
   creditos: {
@@ -142,7 +320,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -150,48 +328,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
-        cargo: 'Diseño web',
+        cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
