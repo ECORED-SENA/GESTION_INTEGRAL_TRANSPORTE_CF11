@@ -41,6 +41,9 @@
           .col-xl-6
             h4 (S) Sugerencias
             p Es la manifestación del usuario tendiente a las posibilidades de mejoramiento del servicio. 
+    .titulo-sexto.color-acento-contenido
+        h5 Tabla 2. 
+        span Matriz de producto o servicio no conforme (PQRS)  
     img(src='@/assets/curso/tema6/12.svg', alt='Texto que describa la imagen')
                                            
     

@@ -7,7 +7,7 @@
         span 4
       h1 Indicadores de productividad
     p Corresponde a aquellas herramientas metodológicas que permiten verificar, analizar y evaluar el rendimiento de las empresas, y, en específico, de sus áreas involucradas, con el objetivo de mejorar los resultados de la gestión y minimizar los costos del proceso.
-    p Los indicadores también son conocidos como KPI (Key Performance Indicators). La necesidad de medir la gestión ha desarrollado la premisa popular que indica: 
+    p Los indicadores también son conocidos como KPI (<i>Key Performance Indicators</i>). La necesidad de medir la gestión ha desarrollado la premisa popular que indica: 
       span.bcc <strong>“Lo que no se mide no se controla”</strong>
       |, lo cual, al analizar, sin duda presenta justificación, ya que el mejoramiento depende de la información y los indicadores que permiten la constante actualización de los números de las compañías. 
     TabsA.color-acento-contenido.mb-5
@@ -21,7 +21,7 @@
             h4 Porcentaje de utilización
             p Determinado por el peso/volumen/sillas del equipo utilizado dividido en la capacidad de este. Adicionalmente, es posible determinar la capacidad de compensación, es decir, el regreso cargado.
       
-      .tarjeta.color-acento-botones.p-4(titulo="Porcentaje de utilización")
+      .tarjeta.color-acento-botones.p-4(titulo="Carga y descarga")
         .row
           .col-xl-6.mb-4
             figure

@@ -59,7 +59,7 @@
           img(src='@/assets/curso/tema6/4.png' alt='AvatarTop')
           .tarjeta.color-secundario
             .p-4
-              p Avión: para su localización y seguimiento, es usado el radar (frecuencias de radio) y el GPS (Global Positioning System o Sistema de Posicionamiento Global), que funciona por medio de señal satelital. Recientemente, los aviones son ubicados por satélite y se envían datos a tierra mediante el sistema ADS-B (Automatic Dependent Surveillance Broadcast). 
+              p <strong>Avión:</strong> para su localización y seguimiento, es usado el radar (frecuencias de radio) y el <i>GPS (Global Positioning System</i> o Sistema de Posicionamiento Global), que funciona por medio de señal satelital. Recientemente, los aviones son ubicados por satélite y se envían datos a tierra mediante el sistema ADS-B (<i>Automatic Dependent Surveillance Broadcast</i>). 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -67,7 +67,7 @@
 
           .tarjeta.color-secundario
             .p-4
-              p Barco: en estos equipos, el sistema más utilizado es el GPS, mediante el cual, además de la localización, se facilita la navegación, la velocidad, se proporciona seguridad y eficiencia a los viajes.
+              p <strong>Barco:</strong> en estos equipos, el sistema más utilizado es el <i>GPS</i>, mediante el cual, además de la localización, se facilita la navegación, la velocidad, se proporciona seguridad y eficiencia a los viajes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -75,14 +75,14 @@
 
           .tarjeta.color-secundario
             .p-4
-              p Vehículos: para los vehículos en tierra, se presentan dos tecnologías principales y que varían de la cobertura de la señal y el costo del servicio de ubicación:
+              p <strong>Vehículos:</strong> para los vehículos en tierra, se presentan dos tecnologías principales y que varían de la cobertura de la señal y el costo del servicio de ubicación:
               ul.lista-ul
                 li 
                   i.fas.fa-angle-right.ca
-                  | GPS: Global Positioning System
+                  p <i>GPS:</i>  Global Positioning System
                 li 
                   i.fas.fa-angle-right.ca
-                  | General Packet Radio Service (Servicio General de Paquetes vía Radio). Este sistema tiene la capacidad de transmitir paquetes de datos multimedia a mayor velocidad y a través de la infraestructura móvil para teléfonos celulares.
+                  p <i>General Packet Radio Service</i>  (Servicio General de Paquetes vía Radio). Este sistema tiene la capacidad de transmitir paquetes de datos multimedia a mayor velocidad y a través de la infraestructura móvil para teléfonos celulares.
     separador
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3   Recibo de la carga por parte del cliente - entrega por parte del transportador  
@@ -131,7 +131,7 @@ export default {
       display: none
   &:hover
     .tarjetas-up_card
-      bottom: -40%
+      bottom: -12%
     i:first-child
       display: none
     i:last-child

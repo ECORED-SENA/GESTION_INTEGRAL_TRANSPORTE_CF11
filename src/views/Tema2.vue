@@ -25,14 +25,14 @@
           .row.justify-content-center(titulo="Embalaje")
             .col-lg-11
               p.mb-0 Considerando que la carga debe protegerse del origen al destino, en el transporte internacional pueden ser dos o más los modos utilizados y, por consiguiente, varios procesos de manipulación durante el trayecto; por eso es necesario el embalaje que protege el producto de aspectos como daños por caída, golpe, vibración, clima, temperatura, animales, saqueo, etc.
-              p  Este proceso facilita la manipulación de la carga, ya sea manual o por intermedio de equipos especializados, el almacenamiento, la ubicación en pallets (por ejemplo, cajas sobre pallet), la ubicación dentro de contenedores o la determinación de fletes y seguros.
+              p  Este proceso facilita la manipulación de la carga, ya sea manual o por intermedio de equipos especializados, el almacenamiento, la ubicación en <i>pallets</i> (por ejemplo, cajas sobre <i>pallet</i>), la ubicación dentro de contenedores o la determinación de fletes y seguros.
               p Para realizar el embalaje de las mercancías, puede ser viable utilizar madera, cartón, papel, plástico, material sintético o metales, y puede ajustarse, según la forma, en cajas, latas, barriles, sacos, carretes, costales o contenedores.
           .row.justify-content-center(titulo="Marcación")
             .col-lg-11
               p Este proceso permite identificar y/o localizar cada pieza de la carga individual o unitarizada. Para realizar la marcación, debe considerarse que la misma sea legible, no borrable, localizable, cumplir con la normatividad vigente y tener la información suficiente, es decir, información estándar del producto. Adicionalmente, puede marcarse con otra información, como peso o licencias y con los datos respecto a la forma de manipulación.
           .row.justify-content-center(titulo="Unitarización")
             .col-lg-11
-              p Luego de embalar la carga, es posible que se necesite unitarizarla, es decir, llevar todas la cajas, bultos, barriles, etc., sobre un pallet, o introducirlos a un contenedor, o incluso introducir los pallets dentro del contenedor. Este último elemento cuenta con varios tipos, los cuales dependen de las características de la carga a transportar, entre ellos están: contenedor de carga seca, contenedor para carga líquida (cisterna), contenedor para carga a granel, contenedor de techo abierto, contenedor refrigerado, etc. 
+              p Luego de embalar la carga, es posible que se necesite unitarizarla, es decir, llevar todas la cajas, bultos, barriles, etc., sobre un <i>pallet</i>, o introducirlos a un contenedor, o incluso introducir los <i>pallets</i> dentro del contenedor. Este último elemento cuenta con varios tipos, los cuales dependen de las características de la carga a transportar, entre ellos están: contenedor de carga seca, contenedor para carga líquida (cisterna), contenedor para carga a granel, contenedor de techo abierto, contenedor refrigerado, etc. 
           .row.justify-content-center(titulo="Planilla de despacho")
             .col-lg-11
               p Con este documento, los vehículos que prestan servicios de transporte de pasajeros por carretera preparan información correspondiente a rutas y horarios. 

@@ -10,7 +10,7 @@
     img(src='@/assets/curso/tema3/img1.jpg', alt='Texto que describa la imagen')
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1   Características del producto a transportar
+      h2 3.1   Recursos humanos
     p El área correspondiente al interior de las empresas de transporte debe validar la idoneidad del personal asignado, con el fin de encontrar el recurso humano que dirija los equipos asignados durante el transporte. Estos roles son:
     .row.justify-content-center
       .col-lg-10
@@ -36,13 +36,13 @@
             p Persona que apoya las labores de cargue y descargue en el vehículo y cuyas funciones se encaminan a la acomodación de las mercancías dentro del vehículo, descarga, entrega al cliente, limpieza y organización del vehículo. 
           .tarjeta.color-acento-botones.p-3(x="60%" y="10%" numero="7")
             .h5.mb-2 Ayudante de bodega
-            p Es la persona que está encargada de operar este tipo de vehículo de apoyo al cargue y descargue. Dentro de sus funciones está el traslado del lugar de almacenamiento al camión, y viceversa, de la mercancía ubicada en pallets, ubicándola de manera organizada y eficiente; además de ser responsable por el cuidado y mantenimiento de su equipo de trabajo.
+            p Es la persona que está encargada de operar este tipo de vehículo de apoyo al cargue y descargue. Dentro de sus funciones está el traslado del lugar de almacenamiento al camión, y viceversa, de la mercancía ubicada en <i>pallets</i>, ubicándola de manera organizada y eficiente; además de ser responsable por el cuidado y mantenimiento de su equipo de trabajo.
           .tarjeta.color-acento-botones.p-3(x="85%" y="92%" numero="4")
             .h5.mb-2 Conductor de vehículo
             p Debe realizar un curso de conducción de acuerdo con el tipo de vehículo a operar para obtener licencia. Posteriormente, debe realizar otros cursos y capacitaciones, generalmente exigidas mediante requisitos contractuales y/o legales.
           .tarjeta.color-acento-botones.p-3(x="88%" y="72%" numero="6")
             .h5.mb-2 Operador de montacarga
-            p Es la persona que está encargada de operar este tipo de vehículo de apoyo al cargue y descargue. Dentro de sus funciones está el traslado del lugar de almacenamiento al camión, y viceversa, de la mercancía ubicada en pallets, ubicándola de manera organizada y eficiente; además de ser responsable por el cuidado y mantenimiento de su equipo de trabajo. 
+            p Es la persona que está encargada de operar este tipo de vehículo de apoyo al cargue y descargue. Dentro de sus funciones está el traslado del lugar de almacenamiento al camión, y viceversa, de la mercancía ubicada en <i>pallets</i>, ubicándola de manera organizada y eficiente; además de ser responsable por el cuidado y mantenimiento de su equipo de trabajo. 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2   Equipos                                                  
@@ -87,7 +87,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Buques mixtos
               
-            p Pueden movilizar diferentes tipos de carga
+            p Pueden movilizar diferentes tipos de carga.
       .col-lg-3.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema3/img6.png' alt='AvatarTop' style='width:400px')
@@ -98,7 +98,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Buques de carga refrigerada
               
-            p Especiales para mantener las condiciones de los productos ante temas de temperatura
+            p Especiales para mantener las condiciones de los productos ante temas de temperatura.
     ol.lista-ol--cuadro.mt-4
       li 
         .lista-ol--cuadro__vineta
@@ -167,7 +167,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Camionetas
             
-            p <strong>Camionetas:</strong> vehículos utilizado para cargas máximas de una tonelada o con disposición de asientos entre 6 y 15 pasajeros.
+            p Vehículos utilizados para cargas máximas de una tonelada o con disposición de asientos entre 6 y 15 pasajeros.
       .col-lg-3.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema3/img11.png' alt='AvatarTop' style='width:400px')
@@ -178,18 +178,18 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Bus
               
-            p <strong>Bus:</strong> vehículos destinados al transporte de pasajeros.
+            p Vehículos destinados al transporte de pasajeros.
       .col-lg-3.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema3/img12.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.bg--2-claro.p-4
+          .tarjetas-up_card.bg--2-claro.p-4.mb-0
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Camión
               
-            p <strong>Camión:</strong> equipo para transporte de carga.  La legislación en Colombia permite el transporte de máximo 35 toneladas netas de carga y un consolidado con el peso bruto vehicular de 53 toneladas. Se presentan en tipos rígidos y articulados, ambos de diferentes capacidades de carga.
+            p  Equipo para transporte de carga.  La legislación en Colombia permite el transporte de máximo 35 toneladas netas de carga y un consolidado con el peso bruto vehicular de 53 toneladas. Se presentan en tipos rígidos y articulados, ambos de diferentes capacidades de carga.
       .col-lg-3.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema3/img13.png' alt='AvatarTop' style='width:400px')
@@ -200,7 +200,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Equipos especiales
               
-            p <strong>Equipos especiales:</strong> corresponde con aquellos equipos utilizados para transporte de cargas extrapesadas y extradimensionadas, los cuales requieren permisos especiales o equipos para izaje (grúas), es decir, para la ubicación de cargas en el vehículo o fuera de él.
+            p Corresponde con aquellos equipos utilizados para transporte de cargas extrapesadas y extradimensionadas, los cuales requieren permisos especiales o equipos para izaje (grúas), es decir, para la ubicación de cargas en el vehículo o fuera de él.
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3	Recursos económicos  
@@ -212,7 +212,7 @@
             img(src='@/assets/curso/tema3/img14.png' alt='AvatarTop' )
           .col-lg-7
             .row.b1.p-4
-              p.mt-4.mb-4 En el comercio internacional, los costos asociados se acuerdan en documento legal, previo acuerdo y selección de incoterms adecuados.      
+              p.mt-4.mb-4 En el comercio internacional, los costos asociados se acuerdan en documento legal, previo acuerdo y selección de Incoterms adecuados.      
     .row.mt-4
       .col-lg-6
         img(src='@/assets/curso/tema3/img15.png' alt='AvatarTop' )
@@ -233,7 +233,7 @@
           .row.justify-content-center(titulo="Entrega")
             .col-lg-11
               p Permite la observancia de los costos, con el objetivo de la minimización, ya sea por costos de transporte, mano de obra, intermediaciones, documentación, entre otros. 
-          .row.justify-content-center(titulo="Planilla de despachoEntrega - Relación costo – daño: ")
+          .row.justify-content-center(titulo="Entrega - relación costo – daño: ")
             .col-lg-11
               p Es la máxima aceptación de diferencias unitarias o volumétricas dentro del servicio, ya que, en gran parte de los contratos de transporte, se cuenta con una tolerancia respecto a daños y pérdidas, la que permite reducir los impactos económicos a la transportadora. Dentro de los daños más comunes y negociables con el cliente se pueden encontrar: deterioros del embalaje, exposición del producto, sellos de seguridad rotos, perecederos fuera de la temperatura deseada, etc.
       .col-lg-6
