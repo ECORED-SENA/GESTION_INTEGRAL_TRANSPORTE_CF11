@@ -8,11 +8,11 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p Durante la prestación de servicios de transporte, se encuentran diferentes procesos necesarios para el desarrollo del servicio. Luego de los diferentes acuerdos comerciales y contractuales entre las partes, se presenta el movimiento asignado, para el cual es necesaria una recepción de lo que se va a transportar, el despacho hacia el lugar de destino, el tránsito, y la recepción final, con la cual se da por completado el servicio.
+    p.mb-4 Durante la prestación de servicios de transporte, se encuentran diferentes procesos necesarios para el desarrollo del servicio. Luego de los diferentes acuerdos comerciales y contractuales entre las partes, se presenta el movimiento asignado, para el cual es necesaria una recepción de lo que se va a transportar, el despacho hacia el lugar de destino, el tránsito, y la recepción final, con la cual se da por completado el servicio.
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/i1.svg')})`}"
           )
           .bloque-texto-g__texto.p-4.mt1
@@ -40,4 +40,6 @@ export default {
 .bloque-texto-g__texto
   background-color: #F6F6F6!important
   width: 65%
+  @media screen and ( max-width: 992px)
+    width: 100%
 </style>

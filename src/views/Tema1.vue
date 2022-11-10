@@ -11,41 +11,45 @@
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5(
+          .bloque-texto-g__img.mt-5.txt(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4.mt1
+          .bloque-texto-g__texto.p-4.mt1.txt2
             p.mb-0 La premisa principal es asegurar la integridad del producto transportado, así como la seguridad y la vida de quienes operan o viajan en los equipos seleccionados.
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1   Modo aéreo
     p El transporte de carga aérea se convierte en un modo multimodal de transporte. La mercancía debe ser recogida vía terrestre en el origen, para ser llevada al aeropuerto. En ocasiones: 
-    PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row
-        .col-md-6.mb-4.mb-md-0
-          p La carga, antes de llegar al aeropuerto, es acopiada en bodegas de almacenamiento, donde un operador de transporte se encarga de consolidar y embalar la mercancía para una correcta identificación, clasificación, cubicación, entre otros. 
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
-      .row
-        .col-md-6.mb-4.mb-md-0
-          figure
-            img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
-        .col-md-6
-          p Al inicio del proceso, la entidad o el transportador responsable de la carga aérea debe emitir una Declaración de Seguridad del Envío (CDS), en la cual se indiquen las condiciones de seguridad desde el inicio y durante el recorrido hasta el destino.
-      .row
-        .col-md-6.mb-4.mb-md-0
-          p Al llegar al aeropuerto de origen, la mercancía ingresa a la aeronave asignada y es llevada hacia el aeropuerto de destino; pasa por bodegas donde la carga es desconsolidada, seleccionada y llevada al destino final; todo ello generalmente vía terrestre.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido.mb-5(tipo="n")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p La carga, antes de llegar al aeropuerto, es acopiada en bodegas de almacenamiento, donde un operador de transporte se encarga de consolidar y embalar la mercancía para una correcta identificación, clasificación, cubicación, entre otros. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
+            .col-md-6
+              p Al inicio del proceso, la entidad o el transportador responsable de la carga aérea debe emitir una Declaración de Seguridad del Envío (CDS), en la cual se indiquen las condiciones de seguridad desde el inicio y durante el recorrido hasta el destino.
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p Al llegar al aeropuerto de origen, la mercancía ingresa a la aeronave asignada y es llevada hacia el aeropuerto de destino; pasa por bodegas donde la carga es desconsolidada, seleccionada y llevada al destino final; todo ello generalmente vía terrestre.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
     .row.justify-content-center
       .col-lg-10
         p Observe un ejemplo gráfico del proceso: 
     img(src='@/assets/curso/tema1/img6.jpg', alt='Texto que describa la imagen')
-    p.text-small Nota. Tomada de la Organización Mundial de Aduanas (s. f.).
+    figcaption.text-small Nota. Tomada de la Organización Mundial de Aduanas (s. f.).
+
+
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.jpg')})`}"
@@ -57,7 +61,7 @@
           br
           | Para la denominada carga expresa, cuyo nombre hace referencia a aquella carga que se considera de entrega urgente, la tecnología ha facilitado el proceso, permitiendo que no se utilice papel y que la documentación obligatoria se pueda gestionar a través de medios electrónicos.
     p.mt-5 <strong> En el transporte aéreo de pasajeros:</strong>
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/1.png' alt='AvatarTop')
@@ -147,7 +151,8 @@ export default {
   right: 40%
   @media screen and ( max-width: 420px)
     right: 0%
-
+  @media screen and ( max-width: 992px)
+    width: 100%
 .bloque-texto-g__img.color-secundario
   left: 50%
   @media screen and ( max-width: 420px)
@@ -159,6 +164,17 @@ export default {
     left: 50%!important
   .bloque-texto-g__texto
     right: 40%
+  @media screen and ( max-width: 992px)
+    .bloque-texto-g__img
+      left: 0%!important
+    .bloque-texto-g__texto
+      right: 0%
 .bloque-texto-g.color-acento-botones
   background-color: transparent!important
+figcaption
+  background-color: white
+.bloque-texto-g__img
+  width: 60%
+  @media screen and ( max-width: 992px)
+    width: 100%
 </style>

@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-3.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.png'),
       },
     ],
   },
@@ -174,11 +174,11 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-      },
+      //{
+      //  icono: 'fas fa-sitemap',
+      //  titulo: 'Síntesis',
+      //  nombreRuta: 'sintesis',
+      //},
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',

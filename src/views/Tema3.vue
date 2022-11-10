@@ -53,8 +53,8 @@
           span 
         | <strong>Modo marítimo</strong>
     p El transporte por vía acuática presenta, dentro de sus ventajas, la capacidad, costo, flexibilidad en el tipo de carga, pero también dificultades como la baja velocidad, accesibilidad, altos costos de embalaje y las demoras en trámites. Para este modo de transporte, se tienen diversas posibilidades, que varían de acuerdo con el tipo de carga o pasajeros, el peso, tamaño, finalidad de viaje, etc., encontrando:
-    .row.mb-5
-      .col-lg-3.mb-3
+    .row.mb-5.justify-content-center
+      .col-lg-3.mb-3.col-8
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/img3.png' alt='AvatarTop' style='width:400px')
@@ -63,10 +63,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Buque de pasajeros
+              h4.mb-0.fa Buque de pasajeros
             
             p Más conocido como crucero.  Buques portacontenedores: para ubicación y traslado de contenedores.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img4.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -74,10 +74,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Buques graneleros
+              h4.mb-0.fa Buques graneleros
             
             p Diseñados para el transporte de carga suelta sólida o líquida.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img5.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -85,10 +85,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Buques mixtos
+              h4.mb-0.fa Buques mixtos
               
             p Pueden movilizar diferentes tipos de carga.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img6.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -96,7 +96,7 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Buques de carga refrigerada
+              h4.mb-0.fa Buques de carga refrigerada
               
             p Especiales para mantener las condiciones de los productos ante temas de temperatura.
     ol.lista-ol--cuadro.mt-4
@@ -122,8 +122,8 @@
           .tarjeta.color-secundario
             .p-5
               h5 Helicóptero:
-              p.mb-4 De sustentación y propulsión por rotores horizontales.
-              .row.mb-3
+              p De sustentación y propulsión por rotores horizontales.
+              .row.mb-4
     ol.lista-ol--cuadro.mt-4
       li 
         .lista-ol--cuadro__vineta
@@ -132,7 +132,7 @@
     p Este modo presenta facilidades por capacidad y velocidad; desafortunadamente, es poco flexible, accesible y de limitaciones para el trasbordo. En este modo, se emplea el tren como equipo, y se encuentran los siguientes tipos:
     .row.mt-4
       .col-lg-6
-        img(src='@/assets/curso/tema3/img9.png' alt='AvatarTop')
+        img.mb-4(src='@/assets/curso/tema3/img9.png' alt='AvatarTop')
       .col-lg-6
         .col-sm
           ul.lista-ul--color.lista-ul--separador
@@ -155,8 +155,8 @@
           span 
         | <strong>Modo terrestre: </strong>
     p Corresponde a aquel para el cual el movimiento sobre la superficie terrestre permite la movilización. Dentro de sus ventajas se tienen la accesibilidad, la flexibilidad y la rapidez. Sus desventajas son la capacidad, la congestión, la accidentabilidad y las regulaciones de tráfico. Para el transporte por tierra, se encuentran:
-    .row.mb-5
-      .col-lg-3.mb-3
+    .row.mb-5.justify-content-center
+      .col-lg-3.mb-3.col-8
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/img10.png' alt='AvatarTop' style='width:400px')
@@ -165,10 +165,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Camionetas
+              h4.mb-0.fa Camionetas
             
             p Vehículos utilizados para cargas máximas de una tonelada o con disposición de asientos entre 6 y 15 pasajeros.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img11.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -176,10 +176,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Bus
+              h4.mb-0.fa Bus
               
             p Vehículos destinados al transporte de pasajeros.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img12.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4.mb-0
@@ -187,10 +187,10 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Camión
+              h4.mb-0.fa Camión
               
             p  Equipo para transporte de carga.  La legislación en Colombia permite el transporte de máximo 35 toneladas netas de carga y un consolidado con el peso bruto vehicular de 53 toneladas. Se presentan en tipos rígidos y articulados, ambos de diferentes capacidades de carga.
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3.col-8
         .tarjetas-up
           img(src='@/assets/curso/tema3/img13.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
@@ -198,7 +198,7 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0 Equipos especiales
+              h4.mb-0.fa Equipos especiales
               
             p Corresponde con aquellos equipos utilizados para transporte de cargas extrapesadas y extradimensionadas, los cuales requieren permisos especiales o equipos para izaje (grúas), es decir, para la ubicación de cargas en el vehículo o fuera de él.
     separador
@@ -242,7 +242,7 @@
     #t_3_4.titulo-segundo.color-acento-contenido
       h2 3.4	Informes de gestión  
     .row.bg1 
-      .col-lg-6.mt-4
+      .col-lg-6
         p A través de este documento, una empresa está en la obligación de mostrar el desempeño de sus diferentes áreas de proceso, identificando las particularidades, el desarrollo de sus actividades, el rendimiento y los resultados. Para este caso, el informe de gestión corresponderá al servicio de transporte, lo cual incluye lo correspondiente a los procesos de cargue y descargue.
         p En Colombia, los responsables de las empresas deben elaborar y presentar, con carácter obligatorio, según la Ley 222 de 1995, un informe de gestión. El informe de gestión, dentro de su componente de transporte, puede incluir:
       .col-lg-6

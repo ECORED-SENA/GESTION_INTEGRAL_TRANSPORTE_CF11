@@ -7,7 +7,7 @@
         span 7
       h1 Matriz de producto o servicio no conforme (PQRS) 
     p Generalmente, al finalizar el servicio, el cliente cuenta con la posibilidad de generar la calificación correspondiente del servicio recibido, es allí donde las empresas de transporte, gracias a sus procesos de gestión interna, cuentan con sistemas de recepción, seguimiento, respuesta y opciones de mejora para los conocidos como PQRS: 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5.mt-4
 
       .tarjeta.color-acento-botones.p-4(titulo="(P) Peticiones")
         .row

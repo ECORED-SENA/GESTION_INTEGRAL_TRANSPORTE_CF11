@@ -47,5 +47,6 @@ export default {
 <style lang="sass">
 .tarjeta--azul
   background-color: #F6F6F6
-  border-bottom: solid 2px #707070
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: #12263F!important
 </style>
