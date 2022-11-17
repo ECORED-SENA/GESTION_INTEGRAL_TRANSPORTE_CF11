@@ -48,5 +48,5 @@ export default {
 .tarjeta--azul
   background-color: #F6F6F6
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: #12263F!important
+  color: #12263F
 </style>

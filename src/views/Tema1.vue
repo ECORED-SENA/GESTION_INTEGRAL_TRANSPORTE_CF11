@@ -36,6 +36,7 @@
                 img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
             .col-md-6
               p Al inicio del proceso, la entidad o el transportador responsable de la carga aérea debe emitir una Declaración de Seguridad del Envío (CDS), en la cual se indiquen las condiciones de seguridad desde el inicio y durante el recorrido hasta el destino.
+          
           .row
             .col-md-6.mb-4.mb-md-0
               p Al llegar al aeropuerto de origen, la mercancía ingresa a la aeronave asignada y es llevada hacia el aeropuerto de destino; pasa por bodegas donde la carga es desconsolidada, seleccionada y llevada al destino final; todo ello generalmente vía terrestre.
@@ -43,11 +44,12 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
+
     .row.justify-content-center
       .col-lg-10
         p Observe un ejemplo gráfico del proceso: 
     img(src='@/assets/curso/tema1/img6.jpg', alt='Texto que describa la imagen')
-    figcaption.text-small Nota. Tomada de la Organización Mundial de Aduanas (s. f.).
+    figcaption.text-small.mt-2 Nota. Tomada de la Organización Mundial de Aduanas (s. f.).
 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-5
@@ -149,6 +151,7 @@ export default {
   background-color: #F6F6F6!important
   width: 65%
   right: 40%
+  box-shadow: 4px 0px 16px 0px rgba(184,184,184,1)
   @media screen and ( max-width: 420px)
     right: 0%
   @media screen and ( max-width: 992px)
@@ -171,10 +174,14 @@ export default {
       right: 0%
 .bloque-texto-g.color-acento-botones
   background-color: transparent!important
-figcaption
-  background-color: white
+
 .bloque-texto-g__img
-  width: 60%
+  width: 63%
   @media screen and ( max-width: 992px)
     width: 100%
+.bloque-texto-g__texto.p-4.mt1.txt2
+  box-shadow: 4px 0px 16px 0px rgba(184,184,184,1)
+  background-color: #F6F6F6!important
+.bloque-texto-g__texto.p-4.mt2
+  background-color: #F6F6F6!important
 </style>

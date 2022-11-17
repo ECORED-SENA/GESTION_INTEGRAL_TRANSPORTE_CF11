@@ -113,7 +113,7 @@
           .tarjeta.color-secundario
             .p-5
               h5 Propulsión a motor:
-              p Existen diferentes tipos de acuerdo con el número de motores para su propulsión.
+              p.mb-0 Existen diferentes tipos de acuerdo con el número de motores para su propulsión.
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
@@ -122,7 +122,7 @@
           .tarjeta.color-secundario
             .p-5
               h5 Helicóptero:
-              p De sustentación y propulsión por rotores horizontales.
+              p.mb-0 De sustentación y propulsión por rotores horizontales.
               .row.mb-4
     ol.lista-ol--cuadro.mt-4
       li 
@@ -291,7 +291,7 @@ export default {
 .acordion__accion__btn--a
   background-color: #5B4794
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: white
+  color: white!important
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
   background-color: #F2F0F7!important
 </style>

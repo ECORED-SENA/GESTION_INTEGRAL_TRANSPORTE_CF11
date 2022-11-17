@@ -33,7 +33,7 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.fa Horarios:
+              h4.mb-0.fa Horarios
 
             
             p De acuerdo con el tipo de equipo de transporte seleccionado, se deben coordinar los tiempos para la prestación del servicio, junto con los correspondientes pasos por puntos intermedios y las posibilidades de ascenso y descenso de pasajeros, de transbordo, de consolidación de carga, etc.
@@ -45,7 +45,7 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.fa Frecuencias:
+              h4.mb-0.fa Frecuencias
 
               
             p Este concepto depende de la capacidad instalada (cantidad de equipos) y recursos para la operación, luego de lo cual se deben realizar estudios que permitan identificar la necesidad del servicio y lograr determinar con ello la periodicidad de la prestación del servicio, es decir, que exista demanda que posibilite la rentabilidad.
@@ -76,13 +76,14 @@
           .tarjeta.color-secundario
             .p-4
               p <strong>Vehículos:</strong> para los vehículos en tierra, se presentan dos tecnologías principales y que varían de la cobertura de la señal y el costo del servicio de ubicación:
-              ul.lista-ul
+              ul.fa-ul
                 li 
-                  i.fas.fa-angle-right.ca
-                  p <i>GPS:</i>  Global Positioning System
-                li 
-                  i.fas.fa-angle-right.ca
-                  p <i>General Packet Radio Service</i>  (Servicio General de Paquetes vía Radio). Este sistema tiene la capacidad de transmitir paquetes de datos multimedia a mayor velocidad y a través de la infraestructura móvil para teléfonos celulares.
+                  i.fa-li.fas.fa-angle-right.ca
+                  | GPS: #[em Global Positioning System]
+                li.mt-3 
+                  i.fa-li.fas.fa-angle-right.ca
+                  |  #[em General Packet Radio Service] (Servicio General de Paquetes vía Radio). Este sistema tiene la capacidad de transmitir paquetes de datos multimedia a mayor velocidad y a través de la infraestructura móvil para teléfonos celulares.
+
     separador
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3   Recibo de la carga por parte del cliente - entrega por parte del transportador  
@@ -126,7 +127,7 @@ export default {
     width: 100%
     height: 100%
     left: 0
-    bottom: -80%
+    bottom: -75%
     i:last-child
       display: none
   &:hover
