@@ -13,39 +13,39 @@
       h2 6.1   Cumplimiento (recorridos, horarios, frecuencias)
     p Para el cumplimiento del servicio, posterior a la determinación de los recursos humanos, técnicos y económicos, es necesario establecer un cronograma que incluya distancia, tiempos, rutas y frecuencias de prestación:
     .row.mb-5.justify-content-center
-      .col-lg-4.mb-3.col-8
+      .col-lg-4.col-md-8.mb-3.col-12
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema6/1.jpg' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/tema6/1.jpg' alt='AvatarTop' )
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.text-center.fa Recorrido
+              h4.mb-0.text-center.fa1 Recorrido
 
             p Se debe establecer la ruta en la cual se realizará el servicio, para lo cual deben verificarse aspectos como: distancia, disponibilidad de infraestructura, condiciones climáticas, disponibilidad de recursos en la base, condiciones de tráfico, riesgos de seguridad, escalas, etc.
-      .col-lg-4.mb-3.col-8
+      .col-lg-4.col-md-8.mb-3.col-12
         .tarjetas-up
-          img.mb-3(src='@/assets/curso/tema6/2.jpg' alt='AvatarTop' style='width:400px')
+          img.mb-3(src='@/assets/curso/tema6/2.jpg' alt='AvatarTop' )
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.fa Horarios
+              h4.mb-0.fa1 Horarios
 
             
             p De acuerdo con el tipo de equipo de transporte seleccionado, se deben coordinar los tiempos para la prestación del servicio, junto con los correspondientes pasos por puntos intermedios y las posibilidades de ascenso y descenso de pasajeros, de transbordo, de consolidación de carga, etc.
-      .col-lg-4.mb-3.col-8
+      .col-lg-4.col-md-8.mb-3.col-12
         .tarjetas-up
-          img.mb-2(src='@/assets/curso/tema6/3.jpg' alt='AvatarTop' style='width:400px')
+          img.mb-2(src='@/assets/curso/tema6/3.jpg' alt='AvatarTop' )
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.fa Frecuencias
+              h4.mb-0.fa1 Frecuencias
 
               
             p Este concepto depende de la capacidad instalada (cantidad de equipos) y recursos para la operación, luego de lo cual se deben realizar estudios que permitan identificar la necesidad del servicio y lograr determinar con ello la periodicidad de la prestación del servicio, es decir, que exista demanda que posibilite la rentabilidad.

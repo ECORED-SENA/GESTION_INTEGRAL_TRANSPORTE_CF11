@@ -48,7 +48,12 @@
     width: 100%
     height: 110%
     left: 0
-    bottom: -70%
+    bottom: -80%
+    @media screen and ( max-width: 768px)
+      bottom: -92%
+    @media screen and ( max-width: 430px)
+      bottom: -80%
+
     i:last-child
       display: none
   &:hover
@@ -85,7 +90,7 @@
   right: 40%
   @media screen and ( max-width: 992px)
     right: 0%
-.fa
+.fa1
   @media screen and ( max-width: 1024px)
     margin-top: -30px 
   @media screen and ( max-width: 768px)

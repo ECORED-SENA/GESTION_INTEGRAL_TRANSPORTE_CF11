@@ -25,9 +25,9 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.order-2.order-lg-1
               p La carga, antes de llegar al aeropuerto, es acopiada en bodegas de almacenamiento, donde un operador de transporte se encarga de consolidar y embalar la mercancía para una correcta identificación, clasificación, cubicación, entre otros. 
-            .col-md-6
+            .col-md-6.order-1.order-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
           .row
@@ -38,10 +38,10 @@
               p Al inicio del proceso, la entidad o el transportador responsable de la carga aérea debe emitir una Declaración de Seguridad del Envío (CDS), en la cual se indiquen las condiciones de seguridad desde el inicio y durante el recorrido hasta el destino.
           
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.order-2.order-lg-1
               p Al llegar al aeropuerto de origen, la mercancía ingresa a la aeronave asignada y es llevada hacia el aeropuerto de destino; pasa por bodegas donde la carga es desconsolidada, seleccionada y llevada al destino final; todo ello generalmente vía terrestre.
           
-            .col-md-6
+            .col-md-6.order-1.order-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
 
@@ -94,8 +94,8 @@
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img8.jpg')})`}"
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img8.svg')})`}"
           )
           .bloque-texto-g__texto.p-4.mt2
             p.mb-0 Para el transporte de pasajeros, la recepción y la emisión de los pasajes es similar al modo aéreo, permite la identificación del viajero y la responsabilidad de la naviera frente a la seguridad de este.

@@ -17,6 +17,13 @@
           )
           .bloque-texto-g__texto.p-4.mt1
             p.mb-0 Los anteriores procesos aplican tanto para las mercancías como para los pasajeros. El cliente evalúa temas de seguridad, rapidez, comodidad y costo.
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.mt-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src='@/assets/curso/tema1/pp.svg' alt='AvatarTop' )
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 Los anteriores procesos aplican tanto para las mercancías como para los pasajeros. El cliente evalúa temas de seguridad, rapidez, comodidad y costo.
 
     p.mt-4 Las empresas de transporte deben tener como objetivo principal contar con la mejor calidad posible en el servicio, y es por ello que, desde los procesos de despacho y recibo, es necesario prestar las mejores garantías que permitan iniciar y finalizar positivamente, solucionando rápida y eficazmente las novedades que se presenten.
     p Para la elaboración de este componente, se abordaron varios autores conocidos en 
@@ -39,7 +46,14 @@ export default {
   background-color: transparent!important
 .bloque-texto-g__texto
   background-color: #F6F6F6!important
-  width: 65%
+  width: 63%
   @media screen and ( max-width: 992px)
     width: 100%
+.bloque-texto-a.color-secundario
+  background-color: #FF6D4B
+  border-top-left-radius: 40px
+.bloque-texto-a.color-secundario:before
+  background-color: white
+.bloque-texto-a__texto
+  background-color: #F6F6F6!important
 </style>
