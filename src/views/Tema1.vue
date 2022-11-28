@@ -10,12 +10,14 @@
     p.mt-5 Para el transporte de mercancías y pasajeros, se deben contemplar los procesos relacionados con el despacho y el recibo; estos se pueden identificar según el modo o medio de transporte utilizado y se diferencian según la mercancía.
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5.txt(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.mt1.txt2
-            p.mb-0 La premisa principal es asegurar la integridad del producto transportado, así como la seguridad y la vida de quienes operan o viajan en los equipos seleccionados.
+
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.mt-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop' )
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 La premisa principal es asegurar la integridad del producto transportado, así como la seguridad y la vida de quienes operan o viajan en los equipos seleccionados.
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -93,37 +95,43 @@
     p El transporte marítimo de carga presenta similitud frente al modo aéreo. En este caso, en lugar de aeropuertos, se encuentran puertos marítimos, la mercancía a transportar cumple procesos similares desde el inicio hasta el final, desde la recepción, pasando por el despacho, el puerto de origen, hasta el recibo en destino.
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img8.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.mt2
-            p.mb-0 Para el transporte de pasajeros, la recepción y la emisión de los pasajes es similar al modo aéreo, permite la identificación del viajero y la responsabilidad de la naviera frente a la seguridad de este.
-    
+
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.mt-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src='@/assets/curso/tema2/3.png' alt='AvatarTop' )
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0  Para el transporte de pasajeros, la recepción y la emisión de los pasajes es similar al modo aéreo, permite la identificación del viajero y la responsabilidad de la naviera frente a la seguridad de este.
+
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3   Modo férreo
     p Este modo plantea recientemente, y gracias a los avances tecnológicos, una opción de movilización rápida y a bajos costos, accesibles para los pasajeros. En cuanto a la carga, igualmente, aquellos países que cuentan con la infraestructura ferroviaria adecuada para la movilización de mercancías logran significativas reducciones en costos frente a otros modos.
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img9.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.mt2
-            p.mb-0 La recepción, el despacho y el recibo de carga permiten garantizar la seguridad de la mercancía y los pasajeros. Para este fin, es necesario tener claridad respecto a los trayectos de movilización, ya que, como se ha evidenciado, el transporte internacional requiere documentos adicionales a los requeridos para transportes internos. 
+
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.mt-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src='@/assets/curso/tema2/4.svg' alt='AvatarTop' )
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 La recepción, el despacho y el recibo de carga permiten garantizar la seguridad de la mercancía y los pasajeros. Para este fin, es necesario tener claridad respecto a los trayectos de movilización, ya que, como se ha evidenciado, el transporte internacional requiere documentos adicionales a los requeridos para transportes internos. 
+    
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4   Modo terrestre
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.mt-5(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img10.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.mt2
-            p.mb-0 En este modo, se encuentra que en la recepción y el despacho se necesitan documentos como la planilla de viaje, el tiquete o boleto, la remesa, el manifiesto de carga, entre otros, los cuales cumplen el mismo objetivo: garantizar la seguridad de la carga o los pasajeros, con el objetivo de prestar servicios de calidad.
-    
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.mt-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src='@/assets/curso/tema2/5.svg' alt='AvatarTop' )
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 En este modo, se encuentra que en la recepción y el despacho se necesitan documentos como la planilla de viaje, el tiquete o boleto, la remesa, el manifiesto de carga, entre otros, los cuales cumplen el mismo objetivo: garantizar la seguridad de la carga o los pasajeros, con el objetivo de prestar servicios de calidad.
+
 </template>
 
 <script>
