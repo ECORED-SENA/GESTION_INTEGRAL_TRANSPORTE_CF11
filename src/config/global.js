@@ -221,7 +221,7 @@ export default {
       referencia:
         'Decreto 1609 de 2002. [Ministerio de Transporte]. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Julio 31 de 2002. ',
       link:
-        'https://www.minambiente.gov.co/images/BosquesBiodiversidadyServiciosEcosistemicos/pdf/Normativa/Decretos/dec_1609_310702.pdf',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6101',
     },
     {
       referencia:
@@ -381,12 +381,7 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
-        nombre: 'Eulises Orduz',
-        cargo: 'Actividades didácticas',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+
       {
         nombre: 'María Eugenia Mejía López',
         cargo: 'Validación Contenido',
