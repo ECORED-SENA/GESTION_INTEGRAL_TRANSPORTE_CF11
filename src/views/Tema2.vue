@@ -14,7 +14,7 @@
     p Durante este proceso, es necesario evidenciar el tipo de mercancía a transportar:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/xCAYdoboBLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DzO4PNfIVYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2   Preparación de la mercancía para el transporte
